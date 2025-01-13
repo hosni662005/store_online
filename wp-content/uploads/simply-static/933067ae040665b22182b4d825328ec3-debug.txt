@@ -1,0 +1,441 @@
+[2025-01-13 16:47:20] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-01-13 16:47:20] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2025-01-13 16:47:20] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-01-13 16:47:21] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-01-13 16:47:21] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-01-13 16:47:21] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-01-13 16:47:22] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840\
+[2025-01-13 16:47:22] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/store_online/
+[2025-01-13 16:47:22] [class-ss-setup-task.php:143] File C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/feed/index.html exists; adding to queue as: http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.html
+[2025-01-13 16:47:22] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-01-13 16:47:22] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-13 16:47:22] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-13 16:47:22] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2025-01-13 16:47:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/
+[2025-01-13 16:47:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2025-01-13 16:47:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/6785439a93ae8-1HJtNA.tmp
+[2025-01-13 16:47:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/?simply_static_page=1
+[2025-01-13 16:47:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/?simply_static_page=1
+[2025-01-13 16:47:24] [class-ss-url-fetcher.php:103] Filesize: 49860 bytes
+[2025-01-13 16:47:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:24] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-01-13 16:47:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/6785439a93ae8-1HJtNA.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/index.html
+[2025-01-13 16:47:24] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:25] [class-ss-fetch-urls-task.php:158] Adding 13 URLs to the queue
+[2025-01-13 16:47:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:26] [class-ss-page.php:119] Checking Content Identical:753e23f9ce617e135ade58ccc89d836aac3f34e7===. Value: FALSE
+[2025-01-13 16:47:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.html
+[2025-01-13 16:47:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2025-01-13 16:47:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/6785439eced14-JYnKJy.tmp
+[2025-01-13 16:47:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.html?simply_static_page=2
+[2025-01-13 16:47:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.html?simply_static_page=2
+[2025-01-13 16:47:26] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2025-01-13 16:47:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-01-13 16:47:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.html
+[2025-01-13 16:47:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/6785439eced14-JYnKJy.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.html
+[2025-01-13 16:47:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:26] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:27] [class-ss-page.php:119] Checking Content Identical:82e5720065fd1390747f873928c24a8c164ee929===. Value: FALSE
+[2025-01-13 16:47:27] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2025-01-13 16:47:27] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-13 16:47:27] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-13 16:47:27] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:69] Total pages: 16; Pages remaining: 14
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online
+[2025-01-13 16:47:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 16
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/6785439f293d8-aKX8FP.tmp
+[2025-01-13 16:47:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online?simply_static_page=3
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online?simply_static_page=3
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:103] Filesize: 358 bytes
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/store_online/
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:212] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/sample-page/
+[2025-01-13 16:47:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 16
+[2025-01-13 16:47:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/6785439f3edce-9Dz43q.tmp
+[2025-01-13 16:47:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/sample-page/?simply_static_page=4
+[2025-01-13 16:47:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/sample-page/?simply_static_page=4
+[2025-01-13 16:47:28] [class-ss-url-fetcher.php:103] Filesize: 48921 bytes
+[2025-01-13 16:47:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:28] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2025-01-13 16:47:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/6785439f3edce-9Dz43q.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/sample-page/index.html
+[2025-01-13 16:47:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:29] [class-ss-fetch-urls-task.php:158] Adding 17 URLs to the queue
+[2025-01-13 16:47:29] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:29] [class-ss-page.php:119] Checking Content Identical:f03302e9b649accd14d00fb859d0eb96b59f8c03===. Value: FALSE
+[2025-01-13 16:47:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/2025/01/13/hello-world/
+[2025-01-13 16:47:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 16
+[2025-01-13 16:47:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a1a2eb8-onZz4y.tmp
+[2025-01-13 16:47:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/2025/01/13/hello-world/?simply_static_page=5
+[2025-01-13 16:47:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/2025/01/13/hello-world/?simply_static_page=5
+[2025-01-13 16:47:31] [class-ss-url-fetcher.php:103] Filesize: 68762 bytes
+[2025-01-13 16:47:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:31] [class-ss-url-fetcher.php:233] New filename for static page: /2025/01/13/hello-world/index.html
+[2025-01-13 16:47:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a1a2eb8-onZz4y.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/2025/01/13/hello-world/index.html
+[2025-01-13 16:47:31] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:31] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:32] [class-ss-page.php:119] Checking Content Identical:4cae6d6e80bf19636a0607f08ddca146e5bddb9f===. Value: FALSE
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-01-13 16:47:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 16
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a4648b9-f0xTB0.tmp
+[2025-01-13 16:47:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=6
+[2025-01-13 16:47:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=6
+[2025-01-13 16:47:32] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2025-01-13 16:47:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-13 16:47:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-01-13 16:47:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a4648b9-f0xTB0.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:32] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2025-01-13 16:47:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/feed/
+[2025-01-13 16:47:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 16
+[2025-01-13 16:47:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a507a97-GSkCIn.tmp
+[2025-01-13 16:47:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/feed/?simply_static_page=7
+[2025-01-13 16:47:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/feed/?simply_static_page=7
+[2025-01-13 16:47:34] [class-ss-url-fetcher.php:103] Filesize: 1715 bytes
+[2025-01-13 16:47:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-13 16:47:34] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2025-01-13 16:47:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a507a97-GSkCIn.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/feed/index.xml
+[2025-01-13 16:47:34] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:34] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2025-01-13 16:47:34] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:34] [class-ss-page.php:119] Checking Content Identical:1b02fce7af5b5b292c46461460155cfd6ae9454e===. Value: FALSE
+[2025-01-13 16:47:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/comments/feed/
+[2025-01-13 16:47:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 16
+[2025-01-13 16:47:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a64a06e-gWAhTK.tmp
+[2025-01-13 16:47:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/comments/feed/?simply_static_page=8
+[2025-01-13 16:47:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/comments/feed/?simply_static_page=8
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:103] Filesize: 1677 bytes
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a64a06e-gWAhTK.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/comments/feed/index.xml
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:158] Adding 4 URLs to the queue
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:35] [class-ss-page.php:119] Checking Content Identical:a90d08b66fd9bdc7b8b8cc3004bcfe2bb5115b66===. Value: FALSE
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-includes/blocks/navigation/style.min.css
+[2025-01-13 16:47:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 16
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a73e9ed-W5Y9Rp.tmp
+[2025-01-13 16:47:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-includes/blocks/navigation/style.min.css?simply_static_page=9
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-includes/blocks/navigation/style.min.css?simply_static_page=9
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-01-13 16:47:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a73e9ed-W5Y9Rp.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-includes/blocks/navigation/style.min.css
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:35] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:35] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-content/themes/twentytwentyfive/style.css
+[2025-01-13 16:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 16
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a824d2f-Ku7A5Q.tmp
+[2025-01-13 16:47:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-content/themes/twentytwentyfive/style.css?simply_static_page=10
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-content/themes/twentytwentyfive/style.css?simply_static_page=10
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:103] Filesize: 2503 bytes
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/style.css
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a824d2f-Ku7A5Q.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-content/themes/twentytwentyfive/style.css
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:36] [class-ss-page.php:119] Checking Content Identical:ea5b671c7e109f3a3930b4229efd36784db50107===. Value: FALSE
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-json/
+[2025-01-13 16:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 16
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/wp-json/
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/xmlrpc.php
+[2025-01-13 16:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 16
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/xmlrpc.php
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-01-13 16:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 16
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a884b41-jIuuFm.tmp
+[2025-01-13 16:47:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=13
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=13
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:103] Filesize: 36695 bytes
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-01-13 16:47:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a884b41-jIuuFm.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:36] [class-ss-page.php:119] Checking Content Identical:b8552f14cf91bdfc758994614768737736f34657===. Value: FALSE
+[2025-01-13 16:47:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-01-13 16:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 16
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a90848f-HWs3vm.tmp
+[2025-01-13 16:47:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2?simply_static_page=14
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2?simply_static_page=14
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:103] Filesize: 53600 bytes
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a90848f-HWs3vm.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:37] [class-ss-page.php:119] Checking Content Identical:5b56dbe3d3eabe178719988f4fee76d9d4ad7079===. Value: FALSE
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-01-13 16:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 16
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a93d26b-kBVxRQ.tmp
+[2025-01-13 16:47:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2?simply_static_page=15
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2?simply_static_page=15
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:103] Filesize: 106112 bytes
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a93d26b-kBVxRQ.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:37] [class-ss-page.php:119] Checking Content Identical:8861b9f5ea4d8410ce01d59ce47dcb32edead4ce===. Value: FALSE
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.xml
+[2025-01-13 16:47:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 16
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543a9d1dbd-yvh7nM.tmp
+[2025-01-13 16:47:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.xml?simply_static_page=16
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.xml?simply_static_page=16
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:103] Filesize: 1772 bytes
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.xml
+[2025-01-13 16:47:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543a9d1dbd-yvh7nM.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed/index.xml
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:37] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:37] [class-ss-page.php:119] Checking Content Identical:1b02fce7af5b5b292c46461460155cfd6ae9454e===. Value: FALSE
+[2025-01-13 16:47:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 16 pages/files
+[2025-01-13 16:47:38] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-13 16:47:38] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-13 16:47:38] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 10
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-admin/
+[2025-01-13 16:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 26
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543aa1f9a8-SRNq91.tmp
+[2025-01-13 16:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-admin/?simply_static_page=17
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-admin/?simply_static_page=17
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:203] redirect_url: http://localhost/store_online/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fstore_online%2Fwp-admin%2F%3Fsimply_static_page%3D17&reauth=1
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:230] Redirect URL is on the same domain; adding the URL to the queue
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:242] Creating a redirect page
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2025-01-13 16:47:38] [class-ss-page.php:119] Checking Content Identical:ca51d10d0bd120741b3146999984055d772bf567===. Value: FALSE
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/sample-page/feed/
+[2025-01-13 16:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 26
+[2025-01-13 16:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543aaee705-lwh2b5.tmp
+[2025-01-13 16:47:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/sample-page/feed/?simply_static_page=18
+[2025-01-13 16:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/sample-page/feed/?simply_static_page=18
+[2025-01-13 16:47:39] [class-ss-url-fetcher.php:103] Filesize: 751 bytes
+[2025-01-13 16:47:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-13 16:47:39] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2025-01-13 16:47:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543aaee705-lwh2b5.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/sample-page/feed/index.xml
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:40] [class-ss-page.php:119] Checking Content Identical:65605e264c2dd26bc24baf08600d5fd4a6ded273===. Value: FALSE
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-json/wp/v2/pages/2
+[2025-01-13 16:47:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 26
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/wp-json/wp/v2/pages/2
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-json/oembed/1.0/embed
+[2025-01-13 16:47:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 26
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/wp-json/oembed/1.0/embed
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/author/hosni1/
+[2025-01-13 16:47:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 26
+[2025-01-13 16:47:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543aca3721-TCT9PG.tmp
+[2025-01-13 16:47:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/author/hosni1/?simply_static_page=21
+[2025-01-13 16:47:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/author/hosni1/?simply_static_page=21
+[2025-01-13 16:47:42] [class-ss-url-fetcher.php:103] Filesize: 49529 bytes
+[2025-01-13 16:47:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:42] [class-ss-url-fetcher.php:233] New filename for static page: /author/hosni1/index.html
+[2025-01-13 16:47:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543aca3721-TCT9PG.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/author/hosni1/index.html
+[2025-01-13 16:47:42] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:42] [class-ss-fetch-urls-task.php:158] Adding 15 URLs to the queue
+[2025-01-13 16:47:42] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:42] [class-ss-page.php:119] Checking Content Identical:8194158d1f49ac6e18f0216c380f886b6c4b9099===. Value: FALSE
+[2025-01-13 16:47:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/category/uncategorized/
+[2025-01-13 16:47:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 26
+[2025-01-13 16:47:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543ae6b247-JNMhTJ.tmp
+[2025-01-13 16:47:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/category/uncategorized/?simply_static_page=22
+[2025-01-13 16:47:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/category/uncategorized/?simply_static_page=22
+[2025-01-13 16:47:43] [class-ss-url-fetcher.php:103] Filesize: 54671 bytes
+[2025-01-13 16:47:43] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:43] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-13 16:47:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543afaf228-bWv734.tmp
+[2025-01-13 16:47:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/category/uncategorized/
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:103] Filesize: 54671 bytes
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-includes/js/comment-reply.min.js
+[2025-01-13 16:47:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 26
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543b0a8600-Q8UwlL.tmp
+[2025-01-13 16:47:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-includes/js/comment-reply.min.js?simply_static_page=23
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-includes/js/comment-reply.min.js?simply_static_page=23
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543b0a8600-Q8UwlL.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-includes/js/comment-reply.min.js
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:44] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/2025/01/13/hello-world/feed/
+[2025-01-13 16:47:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2025-01-13 16:47:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543b0d6301-F9GArz.tmp
+[2025-01-13 16:47:44] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/2025/01/13/hello-world/feed/?simply_static_page=24
+[2025-01-13 16:47:44] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/2025/01/13/hello-world/feed/?simply_static_page=24
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:103] Filesize: 1693 bytes
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:233] New filename for static page: /2025/01/13/hello-world/feed/index.xml
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543b0d6301-F9GArz.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/2025/01/13/hello-world/feed/index.xml
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:45] [class-ss-page.php:119] Checking Content Identical:c85a42b7fdc643d94403d4c4d48bd96a2c7ed0c4===. Value: FALSE
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-includes/css/dist/block-library/common.min.css
+[2025-01-13 16:47:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543b1ce595-bFc5Nz.tmp
+[2025-01-13 16:47:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/wp-includes/css/dist/block-library/common.min.css?simply_static_page=25
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/wp-includes/css/dist/block-library/common.min.css?simply_static_page=25
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2025-01-13 16:47:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543b1ce595-bFc5Nz.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/wp-includes/css/dist/block-library/common.min.css
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-13 16:47:45] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:45] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2025-01-13 16:47:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-json/wp/v2/posts/1
+[2025-01-13 16:47:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2025-01-13 16:47:46] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/wp-json/wp/v2/posts/1
+[2025-01-13 16:47:46] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:46] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 16 of 26 pages/files
+[2025-01-13 16:47:46] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-13 16:47:48] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-13 16:47:48] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-13 16:47:48] [class-ss-fetch-urls-task.php:69] Total pages: 29; Pages remaining: 3
+[2025-01-13 16:47:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fstore_online%2Fwp-admin%2F%3Fsimply_static_page%3D17&reauth=1
+[2025-01-13 16:47:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 29
+[2025-01-13 16:47:48] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fstore_online%2Fwp-admin%2F%3Fsimply_static_page%3D17&reauth=1
+[2025-01-13 16:47:48] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/author/hosni1/feed/
+[2025-01-13 16:47:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 29
+[2025-01-13 16:47:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-13 16:47:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543b4894e5-uK1594.tmp
+[2025-01-13 16:47:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/author/hosni1/feed/?simply_static_page=28
+[2025-01-13 16:47:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/author/hosni1/feed/?simply_static_page=28
+[2025-01-13 16:47:49] [class-ss-url-fetcher.php:103] Filesize: 1745 bytes
+[2025-01-13 16:47:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-13 16:47:49] [class-ss-url-fetcher.php:233] New filename for static page: /author/hosni1/feed/index.xml
+[2025-01-13 16:47:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543b4894e5-uK1594.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840/author/hosni1/feed/index.xml
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-13 16:47:49] [class-ss-page.php:119] Checking Content Identical:ec9de695cd47839f0fc893aa7167e1738aad0020===. Value: FALSE
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/store_online/wp-json/wp/v2/users/1
+[2025-01-13 16:47:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 29
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/store_online/wp-json/wp/v2/users/1
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-13 16:47:49] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 29 pages/files
+[2025-01-13 16:47:49] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-13 16:47:49] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-13 16:47:49] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-13 16:47:49] [class-ss-fetch-urls-task.php:69] Total pages: 29; Pages remaining: 0
+[2025-01-13 16:47:49] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 29 of 29 pages/files
+[2025-01-13 16:47:49] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2025-01-13 16:47:49] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2025-01-13 16:47:49] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2025-01-13 16:47:49] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-01-13 16:47:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\hosni\AppData\Local\Temp/678543b5e8b12-XVNQD0.tmp
+[2025-01-13 16:47:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/store_online/1736786870?simply_static_page=0
+[2025-01-13 16:47:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/store_online/1736786870?simply_static_page=0
+[2025-01-13 16:47:50] [class-ss-url-fetcher.php:103] Filesize: 54671 bytes
+[2025-01-13 16:47:50] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-01-13 16:47:50] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-01-13 16:47:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\hosni\AppData\Local\Temp/678543b5e8b12-XVNQD0.tmp to C:\xampp1\htdocs\store_online/wp-content/uploads\simply-static\temp-files/simply-static-1-1736786840\404/index.html
+[2025-01-13 16:47:50] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-01-13 16:47:50] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-01-13 16:47:50] [class-ss-page.php:119] Checking Content Identical:34067aab9cccc38dbf66e15832d4c6e08e13a2f3===. Value: FALSE
+[2025-01-13 16:47:50] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-01-13 16:47:51] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-01-13 16:47:51] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-01-13 16:47:51] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-01-13 16:47:51] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-01-13 16:47:51] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/
+[2025-01-13 16:47:51] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/
+[2025-01-13 16:47:51] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed
+[2025-01-13 16:47:51] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed
+[2025-01-13 16:47:51] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/sample-page
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/sample-page
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/2025/01/13/hello-world
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/2025/01/13/hello-world
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-includes/js/dist/script-modules/block-library/navigation
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-includes/js/dist/script-modules/block-library/navigation
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/feed
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/feed
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/comments/feed
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/comments/feed
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-includes/blocks/navigation
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-includes/blocks/navigation
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-content/themes/twentytwentyfive
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-content/themes/twentytwentyfive
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-includes/js/dist/script-modules/interactivity
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-includes/js/dist/script-modules/interactivity
+[2025-01-13 16:47:52] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-content/themes/twentytwentyfive/assets/fonts/manrope
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-content/themes/twentytwentyfive/assets/fonts/manrope
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-content/themes/twentytwentyfive/assets/fonts/fira-code
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-content/themes/twentytwentyfive/assets/fonts/fira-code
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-content/uploads/simply-static/temp-files/simply-static-1-1736786840/feed
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-admin
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-admin
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/sample-page/feed
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/sample-page/feed
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/author/hosni1
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/author/hosni1
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-includes/js
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-includes/js
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/2025/01/13/hello-world/feed
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/2025/01/13/hello-world/feed
+[2025-01-13 16:47:53] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/wp-includes/css/dist/block-library
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/wp-includes/css/dist/block-library
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:112] Trying to transfer: C:/xampp1/htdocs/store_online/author/hosni1/feed
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:134] Successfully transferred: C:/xampp1/htdocs/store_online/author/hosni1/feed
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:95] [Transfer] Total Pages:20. Processed Pages: 20
+[2025-01-13 16:47:54] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 20 of 20 files
+[2025-01-13 16:47:54] [trait-can-process-pages.php:112] Total pages: 20; Pages remaining: 0
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:195] Transferring 404 Page
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:215] Destination 404 Page found at C:\xampp1\htdocs\store_online\404\index.html
+[2025-01-13 16:47:54] [class-ss-transfer-files-locally-task.php:219] Success
+[2025-01-13 16:47:54] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://hosni662005.github.io/store_online/" target="_blank">https://hosni662005.github.io/store_online/</a>
+[2025-01-13 16:47:54] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-01-13 16:47:54] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-01-13 16:47:54] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-01-13 16:47:54] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-01-13 16:47:54] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-01-13 16:47:54] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-01-13 16:47:54] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-01-13 16:47:54] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:34
